@@ -21,7 +21,10 @@ class ColorBox extends Component {
   }
   render(props){
     return(
-      <div className="ColorBox" style={{backgroundColor: this.state.color}} onClick={this.handleClick} >
+      <div 
+        className="ColorBox" 
+        style={{backgroundColor: this.state.color}} 
+        onClick={this.handleClick} >
       </div>
     )
   }
